@@ -4,6 +4,6 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   base:
-    process.env.NODE_ENV === "production" ? "/Wayne0917-TeaNation.io/" : "/", // eslint-disable-line
+    process.env.NODE_ENV === "production" ? "/TeaNation.io/" : "/", // eslint-disable-line
   plugins: [react()],
 });
